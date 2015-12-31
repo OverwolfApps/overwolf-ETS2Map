@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="kenney-icon-font-0.2.0/css/kenney-icons.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>ETS2 Multiplayer map
+    </title>
+</head>
+<body onload="startMap();">
+<div class="resizeGrip" id="resizeGripTopLeft" onmousedown="dragResize('TopLeft');">
+</div>
+<div class="resizeGrip" id="resizeGripTop" onmousedown="dragResize('Top');">
+</div>
+<div class="resizeGrip" id="resizeGripTopRight" onmousedown="dragResize('TopRight');">
+</div>
+<div class="resizeGrip" id="resizeGripRight" onmousedown="dragResize('Right');">
+</div>
+<div class="resizeGrip" id="resizeGripBottomRight" onmousedown="dragResize('BottomRight');">
+</div>
+<div class="resizeGrip" id="resizeGripBottom" onmousedown="dragResize('Bottom');">
+</div>
+<div class="resizeGrip" id="resizeGripBottomLeft" onmousedown="dragResize('BottomLeft');">
+</div>
+<div class="resizeGrip" id="resizeGripLeft" onmousedown="dragResize('Left');">
+</div>
+<div class="resizeGrip" id="moveGrip" onmousedown="dragMove();">
+</div>
+<div id="content" >
+    <strong id="clock">12:30</strong>
+    <button id="right1" class="ki ki-times-circle" onclick="closeWindow();">
+    </button>
+    <button id="right2" class="ki ki-cog" onclick="openWindow('SettingsWindow');">
+    </button>
+    <button id="left1" class="ki ki-reload" onclick="refresh();">
+    </button>
+    <button id="left2" class="ki ki-user" onclick="searchTruck();">
+    </button>
+
+    <canvas id="mpmap" height="10" width="10">
+    </canvas>
+
+</div>
+</body>
+<script src="ow_ets2map.js"></script>
+<script src="ETS2MPMap.js"></script>
+</html>

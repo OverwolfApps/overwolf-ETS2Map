@@ -1,0 +1,141 @@
+html {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	/*background: #101010;
+*/
+	background: url(/Files/bcg1.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+    color: aliceblue;
+}
+.resizeGrip {
+	background: rgba(255, 0, 0, 0);
+	position: absolute;
+    z-index: 1;
+}
+#content {
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	padding: 5px;
+}
+#resizeGripTop {
+	height: 20px;
+	top: 0;
+	left: 20px;
+	right: 20px;
+	cursor: ns-resize;
+}
+#resizeGripBottom {
+	height: 20px;
+	bottom: 0;
+	left: 20px;
+	right: 20px;
+	cursor: ns-resize;
+}
+#resizeGripLeft {
+	width: 20px;
+	left: 0;
+	top: 20px;
+	bottom: 20px;
+	cursor: ew-resize;
+}
+#resizeGripRight {
+	width: 20px;
+	right: 0;
+	top: 20px;
+	bottom: 20px;
+	cursor: ew-resize;
+}
+#resizeGripTopLeft {
+	width: 20px;
+	height: 20px;
+	top: 0;
+	left: 0;
+	cursor: nwse-resize;
+}
+#resizeGripBottomLeft {
+	width: 20px;
+	height: 20px;
+	bottom: 0;
+	left: 0;
+	cursor: nesw-resize;
+}
+#resizeGripTopRight {
+	width: 20px;
+	height: 20px;
+	top: 0;
+	right: 0;
+	cursor: nesw-resize;
+}
+#resizeGripBottomRight {
+	width: 20px;
+	height: 20px;
+	bottom: 0;
+	right: 0;
+	cursor: nwse-resize;
+}
+#moveGrip {
+    height: 30px;
+    top:  20px;
+    left: 20px;
+    right: 20px;
+    cursor: move;
+}
+button {
+	border-radius: 5px;
+    padding: 2% 8% 2% 8%;
+	background-color: #ddac1b;
+    background-image: linear-gradient( #aa7d03, #fcca31, #aa7d03);
+ 	text-decoration: none;
+    border: none;
+}
+form {
+	color: aliceblue;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+canvas {
+	border-radius: 10px;
+	position: absolute;
+	left: 6.5%;
+	top: 12.5%;
+}
+#right1 {
+	position: absolute;
+	right: 6%;
+	bottom: 7.5%;
+}
+#right2 {
+	position: absolute;
+	right: 29%;
+	bottom: 7.5%;
+}
+#left1 {
+	position: absolute;
+	left: 6%;
+	bottom: 7.5%;
+}
+#left2 {
+	position: absolute;
+	left: 29%;
+	bottom: 7.5%;
+}
+#clock{
+    position: absolute;
+	color: aliceblue;
+    right: 7.5%;
+    top: 6%;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+#CreditsWindow {
+    font-size: 12px;
+    font-family: 'Lato', Arial, sans-serif;
+    padding-left: 6.5%;
+    padding-top: 3%;
+}
+#CreditsWindow a {
+color: #336ca6;
+}

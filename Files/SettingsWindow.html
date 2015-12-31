@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="kenney-icon-font-0.2.0/css/kenney-icons.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Settings
+    </title>
+</head>
+<body onload="onload();">
+<div id="content" onmousedown="dragMove();">
+    <form>
+        <br><b>ETS2MP ID:</b> <input type="number" maxlength="5" id="mpid">
+
+        <br><b>Server:</b>
+        <select id="server">
+            <option value="0">Europe #1</option>
+            <option value="1">North America #1</option>
+            <option value="2">Europe #2</option>
+            <option value="3">Europe #3</option>
+            <option value="5">Asia #1</option>
+            <option value="6">South America #1</option>
+            <option value="99">All Servers</option>
+        </select>
+        <br>
+        <input type="checkbox" id="name_show" checked> Show Name<br>
+        <input type="checkbox" id="name_show_id" checked> Show (ID)<br>
+        <b>Name Visible Range</b><br>
+        Far<input type=range min=-1 max=3 value=1.25 id="truck_vis_range">Near
+    </form>
+
+    <br>
+    <button id="left1" class="ki ki-check" onclick="save();">
+    </button>
+    <button id="right1"  class="ki ki-times" onclick="closeWindow();">
+    </button>
+    <button id="right2"  class="ki ki-info" onclick="openWindow('CreditsWindow');;">
+    </button>
+</div>
+</body>
+<script src="ow_ets2map.js"></script>
+</html>

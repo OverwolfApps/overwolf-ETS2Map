@@ -1,0 +1,53 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "ETS2 Multiplayer map",
+    "version": "0.1.0",
+    "minimum-overwolf-version": "0.77.10",
+    "author": "AnotherFoxGuy",
+    "icon": "ets2mp_logo.png",
+    "icon_gray": "ets2mp_logoGrey.png",
+    "description": "Multiplayer map for Euro Truck Simulator 2"
+  },
+  "data": {
+    "start_window": "MainWindow",
+    "windows": {
+      "MainWindow": {
+        "file": "Files/index.html",
+        "transparent": true,
+        "resizable": true,
+        "size": {
+          "width": 400,
+          "height": 300
+        },
+        "min_size": {
+          "width": 200,
+          "height": 200
+        },
+        "max_size": {
+          "width": 600,
+          "height": 500
+        }
+      },
+      "SettingsWindow": {
+        "file": "Files/SettingsWindow.html",
+        "transparent": true,
+        "resizable": true,
+        "size": {
+          "width": 400,
+          "height": 300
+        }
+      },
+      "CreditsWindow": {
+        "file": "Files/CreditsWindow.html",
+        "transparent": true,
+        "resizable": true,
+        "size": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    }
+  }
+}
