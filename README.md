@@ -1,6 +1,8 @@
 # overwolf-ETS2Map
 in-game [ets2 map](ets2map.com) for [overwolf](http://overwolf.com)
 
+![](http://anotherfoxguy.com/images/OW_ETS2Map/ScreenShot.png)
+
 ##Installing
 * Download  and install [overwolf](http://overwolf.com)
 * Download the repo and extract it from the archive.
