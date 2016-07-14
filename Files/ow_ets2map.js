@@ -60,7 +60,7 @@ function startMap() {
     if (localStorage.getItem("mpid") == 0) {
         localStorage.setItem("mpid", null);
     }
-    if (localStorage.getItem("truck_vis_range")== null) {
+    if (localStorage.getItem("truck_vis_range") == null) {
         localStorage.setItem("truck_vis_range", 1.25);
     }
     if (localStorage.getItem("server") == null) {
