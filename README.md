@@ -4,7 +4,7 @@ In-game ETS2MP map for [Overwolf](http://overwolf.com)
 ##Automatic installation
 Please refer to the <a href="#manual-installation">Manual installation method</a>.
 
-##Manual installation
+##Manual installation ([Video Tutorial](https://www.youtube.com/watch?v=R4sXL7LYiqM))
 1. Download  and install [Overwolf](http://overwolf.com)
 2. Download the [latest release](https://github.com/OverwolfApps/overwolf-ETS2Map/releases/latest) as OPK.
 3. In Overwolf click on Settings (either the wrench icon on the dock, or the Settings button on the tray icon menu).
