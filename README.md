@@ -1,9 +1,16 @@
-# overwolf-ETS2Map
-in-game [ets2 map](ets2map.com) for [overwolf](http://overwolf.com)
+# Overwolf-ETS2MPMap
+In-game ETS2MP map for [Overwolf](http://overwolf.com)
 
 ![](http://anotherfoxguy.com/images/OW_ETS2Map/ScreenShot1.png)
 
-##Installing
+##Manual installation
+* Download  and install [Overwolf](http://overwolf.com)
+* Download the [latest release](https://github.com/OverwolfApps/overwolf-ETS2Map/releases/latest) as OPK.
+* In Overwolf click on Settings (either the wrench icon on the dock, or the Settings button on the tray icon menu).
+* Go to the Support tab, you will see a link labelled “Development Options”. Click that.
+* Click on “Install extension...” and select the OPK file you just downloaded.
+
+##Developer installation
 * Download  and install [overwolf](http://overwolf.com)
 * Download the repo and extract it from the archive.
 * Click on Settings (either the wrench icon on the dock, or the Settings button on the tray icon menu).
