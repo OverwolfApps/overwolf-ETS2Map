@@ -2,7 +2,7 @@
 In-game ETS2MP map for [Overwolf](http://overwolf.com)
 
 ##Automatic installation
-Please refer to the <a href="#manual-installation>Manual installation method</a>.
+Please refer to the <a href="#manual-installation">Manual installation method</a>.
 
 ##Manual installation
 * Download  and install [Overwolf](http://overwolf.com)
