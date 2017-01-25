@@ -1,7 +1,8 @@
 # Overwolf-ETS2MPMap
 In-game ETS2MP map for [Overwolf](http://overwolf.com)
 
-![](http://anotherfoxguy.com/images/OW_ETS2Map/ScreenShot1.png)
+##Automatic installation
+Please refer to the <a href="#manual-installation>Manual installation method</a>.
 
 ##Manual installation
 * Download  and install [Overwolf](http://overwolf.com)
